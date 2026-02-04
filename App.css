@@ -1,0 +1,149 @@
+/* General Dark Theme Styles */
+body {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme {
+  background-color: #1e1e1e; /* Darker container background */
+  border: 1px solid #333; /* Subtle border for contrast */
+}
+
+.app-header {
+  text-align: center;
+  background-color: #282c34; /* Dark header background */
+  color: #61dafb; /* React blue color */
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  background-color: #61dafb; /* Light blue background */
+  color: #121212; /* Dark text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #21a1f1; /* Darker blue on hover */
+}
+
+.auth-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c2c2c; /* Slightly lighter background for auth */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
+
+.auth-container button {
+  margin-top: 20px;
+  background-color: #61dafb;
+  color: #121212;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+input::placeholder {
+  color: #888; /* Placeholder text color */
+}
+
+/* Specific Component Styles */
+.expense-list, .expense-form, .graph {
+  background-color: #252525;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.graph {
+  text-align: center;
+}
+
+.predicted-expense {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #ff9800; /* Orange for emphasis */
+  font-weight: bold;
+}
+/* Expense List Styles */
+.expense-list {
+  background-color: #252525;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.expense-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between; /* This aligns the details and button */
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #333; /* Separator between items */
+}
+
+.expense-item:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+.expense-details {
+  flex: 1; /* Take all available space */
+  color: #e0e0e0; /* Light text color */
+}
+
+.delete-button {
+  background-color: #ff4c4c; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #e63939; /* Darker red on hover */
+}

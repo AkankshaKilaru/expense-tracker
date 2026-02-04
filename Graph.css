@@ -1,0 +1,26 @@
+.graph-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .graph-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .predicted-expense {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #FF5722; /* Orange color for the text */
+    font-weight: bold;
+  }
+  
+  .predicted-expense span {
+    color: #FF5722; /* Use a matching color for the dollar amount */
+  }
+  
